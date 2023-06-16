@@ -6,13 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.androidlearningproject.ch2_statesless_vs_stateful.StateLessVsStateFullCountersExample
-import com.example.androidlearningproject.shared_pref.SharedPrefView
+import com.example.androidlearningproject.ch2_state_and_remeber.StateAndRemember
 import com.example.androidlearningproject.ui.theme.AndroidLearningProjectTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -30,8 +25,7 @@ class MainActivity : ComponentActivity() {
 
 
 //                    StateLessVsStateFullCountersExample(viewModel = hiltViewModel())
-
-
+                    StateAndRemember()
                 }
             }
         }

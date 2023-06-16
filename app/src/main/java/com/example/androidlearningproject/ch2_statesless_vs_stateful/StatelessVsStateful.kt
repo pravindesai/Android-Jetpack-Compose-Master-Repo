@@ -110,7 +110,8 @@ fun StateFullStepper(modifier: Modifier = Modifier, onStepsChange:(step:Int)-> U
 
         Text(
             textAlign = TextAlign.Center,
-            modifier = Modifier.weight(1f),text = "${steps.value}")
+            modifier = Modifier.weight(1f),
+            text = "${steps.value}")
 
         Button(modifier = Modifier.weight(1f),
             onClick = {

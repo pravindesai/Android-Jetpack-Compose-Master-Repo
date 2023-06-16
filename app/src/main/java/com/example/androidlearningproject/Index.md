@@ -17,9 +17,10 @@
 ### <span style="color:BLUE"> CH-2 - Required Concepts </span>
 * States
    * state based rendering 
-   * remember{ mutable-state }
+   * remember { mutable-state }
    * Stateful vs Stateless composable
    * State hoisting
+* Event Delegation using higher order functions 
 * Side Effects 
   * launchedEffect 
   * disposableEffect
@@ -36,7 +37,7 @@
   * snapshotFlow
 
 
-### <span style="color:BLUE"> CH - Adv*2 Required Concepts  </span>
+### <span style="color:BLUE"> CH-4 - Adv*2 Required Concepts  </span>
 * rememberSavable vs customer saver classes
 * Navigation
 * Animation
