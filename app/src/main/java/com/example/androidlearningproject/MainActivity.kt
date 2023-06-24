@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.androidlearningproject.ch2_state_and_remeber.StateAndRemember
+import com.example.androidlearningproject.CH3_DERIVED_STATE.DerivedAndOtherStates
 import com.example.androidlearningproject.ui.theme.AndroidLearningProjectTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -25,7 +25,11 @@ class MainActivity : ComponentActivity() {
 
 
 //                    StateLessVsStateFullCountersExample(viewModel = hiltViewModel())
-                    StateAndRemember()
+//                    StateAndRemember()
+//                    SideEffects()
+//                    RememberSavableExample()
+                    DerivedAndOtherStates()
+
                 }
             }
         }
