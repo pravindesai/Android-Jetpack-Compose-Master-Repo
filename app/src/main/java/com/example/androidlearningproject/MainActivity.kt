@@ -29,8 +29,8 @@ class MainActivity : ComponentActivity() {
 //                    StateAndRemember()
 //                    SideEffects()
 //                    RememberSavableExample()
-                    DerivedAndOtherStates()
-//                      ProduceState()
+//                    DerivedAndOtherStates()
+                      ProduceState()
                 }
             }
         }
