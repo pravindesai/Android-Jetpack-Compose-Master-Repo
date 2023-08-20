@@ -54,6 +54,7 @@ android {
 }
 
 dependencies {
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
 
     implementation libs.core.ktx
     implementation libs.lifecycle.runtime.ktx
@@ -77,5 +78,8 @@ dependencies {
     kapt "com.google.dagger:hilt-android-compiler:2.44"
     implementation ('com.google.code.gson:gson:2.10.1')
     implementation "androidx.datastore:datastore-preferences:1.0.0"
+
+    implementation libs.navigation.compose
+    implementation libs.androidx.lifecycle.runtime.compose
 
 }
