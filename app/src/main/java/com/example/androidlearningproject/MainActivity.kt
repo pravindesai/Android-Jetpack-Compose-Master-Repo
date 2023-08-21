@@ -12,6 +12,8 @@ import androidx.compose.material3.Text
 import androidx.compose.ui.Modifier
 import com.example.androidlearningproject.CH3_DERIVED_STATE.DerivedAndOtherStates
 import com.example.androidlearningproject.CH3_ProduceState.ProduceState
+import com.example.androidlearningproject.ComposableAsParameter.ComposableAsParameter
+import com.example.androidlearningproject.CompositionLocal.CompositionLocalObj
 import com.example.androidlearningproject.ch3_Remebersavable.RememberSavableVsViewModel
 import com.example.androidlearningproject.navigation.NavigationComposable
 import com.example.androidlearningproject.ui.theme.AndroidLearningProjectTheme
@@ -28,8 +30,17 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-//                     NavigationComposable()
-                       RememberSavableVsViewModel()
+                    /* ComposableAsParameter(
+                        modifier = Modifier.fillMaxSize(),
+                        view1 = {
+                            Text(text = "View 1")
+                        },
+                        view2 = {
+                            Text(text = "View 2")
+                        }
+                    )*/
+//                    NavigationComposable()
+//                    RememberSavableVsViewModel()
 //                    ComposeRecomposeExample()
 //                    StateLessVsStateFullCountersExample(viewModel = hiltViewModel())
 //                    StateAndRemember()
@@ -37,6 +48,7 @@ class MainActivity : ComponentActivity() {
 //                    RememberSavableExample()
 //                    DerivedAndOtherStates()
 //                    ProduceState()
+                      CompositionLocalObj()
                 }
             }
         }
